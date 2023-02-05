@@ -1,0 +1,77 @@
+.banner-container {
+  height: 350px;
+  .text {
+    width: 100%;
+    padding: 0 20px;
+    left: 0;
+    box-sizing: border-box;
+    .title {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+    .desc {
+      width: 100%;
+      line-height: 1.8;
+      font-size: 14px;
+    }
+  }
+}
+.main-container {
+  padding: 30px 0;
+  flex-wrap: wrap;
+  .content-container {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    .page-title {
+      font-size: 20px;
+      padding-left: 10px;
+      margin-bottom: 10px;
+    }
+    .content {
+      border-top: 1px solid #ddd;
+      padding-top: 20px;
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+  .right-aside {
+    width: 100%;
+    .title-module {
+      font-size: 20px;
+      position: relative;
+      padding-left: 10px;
+      margin-bottom: 10px;
+    }
+  }
+}
+.people-container {
+  .people-list {
+    display: flex;
+    flex-wrap: wrap;
+    .people-item {
+      margin: 0 5px 10px;
+      width: calc((100% - 5px * 2) / 2);
+      a{
+        flex-wrap: wrap;
+      }
+      .left-layout,
+      .right-layout{
+        width: 100%;
+      }
+      &:nth-child(3n + 1) {
+        margin-left: 5px;
+      }
+      &:nth-child(3n + 3) {
+        margin-right: 5px;
+      }
+      &:nth-child(2n + 1) {
+        margin-left: 0;
+      }
+      &:nth-child(2n + 2) {
+        margin-right: 0;
+      }
+    }
+  }
+}

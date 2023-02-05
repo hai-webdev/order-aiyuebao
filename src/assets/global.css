@@ -1,0 +1,44 @@
+@import "//at.alicdn.com/t/font_3257730_5dc1ituk2f.css";
+.max-center {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.min-center {
+  width: 90%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.more-btn {
+  width: 140px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  color: #ed207b;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  border-radius: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #ed207b;
+  position: relative;
+  overflow: hidden;
+  transition: 0.6s;
+}
+.more-btn::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  background-color: #ed207b;
+  z-index: -1;
+  left: 0;
+  transition: 0.6s;
+}
+.more-btn:hover {
+  color: #fff;
+}
+.more-btn:hover::after {
+  width: 100%;
+}

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>（模板页面）月嫂服务</title>
+</head>
+
+<body>
+  <!-- 引入公共页头 -->
+  <%= require("html-loader!../common/header/index.html") %>
+    <section class="banner-container">
+      <img src="/public/images/home/banner.jpg" alt="月嫂服务">
+      <div class="text">
+        <div class="title wow fadeInUp">月嫂服务</div>
+        <div class="desc wow fadeInUp" data-wow-delay="200ms">
+          每一位月嫂通过层层考核严苛筛选，服务安心有保障。
+          优质的服务，透明价格，“云专家团队”为您服务，
+          包括营养师、产后修复专家、母婴顾问等都是您的月子帮手。
+        </div>
+      </div>
+    </section>
+    <section class="main-container max-center">
+      <main class="content-container">
+        <h1 class="page-title wow fadeInUp">月嫂服务</h1>
+        <div class="content wow fadeInUp">
+          <p style="margin-bottom: 20px;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ipsa voluptatem nulla odit unde facilis sit ipsam possimus maiores ab repellendus itaque ex exercitationem dolores magnam voluptatibus dolorem! Provident, ducimus?
+          </p>
+          <p style="margin-bottom: 20px;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quam et architecto. Dolore, blanditiis ab fuga animi alias iusto quaerat sint nemo delectus minus distinctio accusantium incidunt odio, eaque eum?
+          </p>
+          <img style="margin-bottom: 20px;" src="/public/images/home/people01.jpg" alt="">
+        </div>
+      </main>
+      <aside class="right-aside">
+        <div class="form-container wow fadeInUp">
+          <div class="title-module">在线预约</div>
+          <form class="form" action="">
+            <label class="label" for="">
+              <span>姓名</span>
+              <input type="text" placeholder="请输入您的姓名...">
+            </label>
+            <label class="label" for="">
+              <span>联系方式</span>
+              <input type="text" placeholder="请输入您的手机号码...">
+            </label>
+            <div class="label project">
+              <span>服务项目</span>
+              <div class="select">
+                <label for="confinement">
+                  <input type="radio" name="server" id="confinement">月嫂服务
+                </label>
+                <label for="babysitting">
+                  <input type="radio" name="server" id="babysitting">育婴服务
+                </label>
+                <label for="postpartum">
+                  <input type="radio" name="server" id="postpartum">产后康复
+                </label>
+                <label for="training">
+                  <input type="radio" name="server" id="training">专业培训
+                </label>
+              </div>
+            </div>
+            <button type="submit">提交</button>
+          </form>
+        </div>
+        <div class="recommend-container wow fadeInUp">
+          <div class="title-module">相关推荐</div>
+          <ul class="news-list">
+            <li class="news-item">
+              <a href="">
+                <div class="text">
+                  <div class="title">资讯Lorem ipsum dolor sit amet.</div>
+                  <div class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, culpa totam sint blanditiis, possimus minus praesentium suscipit provident, aut consectetur distinctio error labore minima voluptate illum dolor. Atque, quaerat. Odio.</div>
+                  <div class="time">2021.12.07</div>
+                </div>
+                <div class="img">
+                  <img src="/public/images/home/news.jpg" alt="">
+                </div>
+              </a>
+            </li>
+            <li class="news-item">
+              <a href="">
+                <div class="text">
+                  <div class="title">资讯Lorem ipsum dolor sit amet.</div>
+                  <div class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, culpa totam sint blanditiis, possimus minus praesentium suscipit provident, aut consectetur distinctio error labore minima voluptate illum dolor. Atque, quaerat. Odio.</div>
+                  <div class="time">2021.12.07</div>
+                </div>
+                <div class="img">
+                  <img src="/public/images/home/news.jpg" alt="">
+                </div>
+              </a>
+            </li>
+            <li class="news-item">
+              <a href="">
+                <div class="text">
+                  <div class="title">资讯Lorem ipsum dolor sit amet.</div>
+                  <div class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, culpa totam sint blanditiis, possimus minus praesentium suscipit provident, aut consectetur distinctio error labore minima voluptate illum dolor. Atque, quaerat. Odio.</div>
+                  <div class="time">2021.12.07</div>
+                </div>
+                <div class="img">
+                  <img src="/public/images/home/news.jpg" alt="">
+                </div>
+              </a>
+            </li>
+            <li class="news-item">
+              <a href="">
+                <div class="text">
+                  <div class="title">资讯Lorem ipsum dolor sit amet.</div>
+                  <div class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, culpa totam sint blanditiis, possimus minus praesentium suscipit provident, aut consectetur distinctio error labore minima voluptate illum dolor. Atque, quaerat. Odio.</div>
+                  <div class="time">2021.12.07</div>
+                </div>
+                <div class="img">
+                  <img src="/public/images/home/news.jpg" alt="">
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </section>
+    <section class="people-container max-center">
+      <div class="title-module">
+        精选月嫂
+      </div>
+      <ul class="people-list">
+        <li class="people-item wow fadeInUp">
+          <a href="">
+            <div class="left-layout">
+              <div class="img">
+                <img src="/public/images/home/people01.jpg" alt="">
+              </div>
+              <p>月嫂的名字</p>
+            </div>
+            <div class="right-layout">
+              <p>姓名：田红德</p>
+              <p>籍贯：山东</p>
+              <p>经历：8年经验</p>
+              <p>资质：齐全</p>
+            </div>
+          </a>
+        </li>
+        <li class="people-item wow fadeInUp">
+          <a href="">
+            <div class="left-layout">
+              <div class="img">
+                <img src="/public/images/home/people01.jpg" alt="">
+              </div>
+              <p>月嫂的名字</p>
+            </div>
+            <div class="right-layout">
+              <p>姓名：田红德</p>
+              <p>籍贯：山东</p>
+              <p>经历：8年经验</p>
+              <p>资质：齐全</p>
+            </div>
+          </a>
+        </li>
+        <li class="people-item wow fadeInUp">
+          <a href="">
+            <div class="left-layout">
+              <div class="img">
+                <img src="/public/images/home/people01.jpg" alt="">
+              </div>
+              <p>月嫂的名字</p>
+            </div>
+            <div class="right-layout">
+              <p>姓名：田红德</p>
+              <p>籍贯：山东</p>
+              <p>经历：8年经验</p>
+              <p>资质：齐全</p>
+            </div>
+          </a>
+        </li>
+        <li class="people-item wow fadeInUp">
+          <a href="">
+            <div class="left-layout">
+              <div class="img">
+                <img src="/public/images/home/people01.jpg" alt="">
+              </div>
+              <p>月嫂的名字</p>
+            </div>
+            <div class="right-layout">
+              <p>姓名：田红德</p>
+              <p>籍贯：山东</p>
+              <p>经历：8年经验</p>
+              <p>资质：齐全</p>
+            </div>
+          </a>
+        </li>
+        <li class="people-item wow fadeInUp">
+          <a href="">
+            <div class="left-layout">
+              <div class="img">
+                <img src="/public/images/home/people01.jpg" alt="">
+              </div>
+              <p>月嫂的名字</p>
+            </div>
+            <div class="right-layout">
+              <p>姓名：田红德</p>
+              <p>籍贯：山东</p>
+              <p>经历：8年经验</p>
+              <p>资质：齐全</p>
+            </div>
+          </a>
+        </li>
+        <li class="people-item wow fadeInUp">
+          <a href="">
+            <div class="left-layout">
+              <div class="img">
+                <img src="/public/images/home/people01.jpg" alt="">
+              </div>
+              <p>月嫂的名字</p>
+            </div>
+            <div class="right-layout">
+              <p>姓名：田红德</p>
+              <p>籍贯：山东</p>
+              <p>经历：8年经验</p>
+              <p>资质：齐全</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <!-- 引入公共页尾 -->
+    <%= require("html-loader!../common/footer/index.html") %>
+</body>
+
+</html>
